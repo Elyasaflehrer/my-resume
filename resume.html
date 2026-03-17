@@ -6,17 +6,18 @@
 <title>Elyasaf Lehrer - Resume</title>
 <style>
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", Arial, Helvetica, sans-serif;
   background: #e6e6e6;
   margin: 0;
-  padding: 40px;
+  padding: 25px;
   color: #222222;
+  line-height: 1.65; /* increased line spacing */
 }
 .container {
   max-width: 900px;
   margin: auto;
   background: white;
-  padding: 40px;
+  padding: 25px;
   color: #222222;
 }
 .header {
@@ -35,7 +36,7 @@ body {
 }
 .contact {
   margin-top: 6px;
-  font-size: 14px;
+  font-size: 11px;
   color: #222222;
 }
 .section {
@@ -50,15 +51,16 @@ body {
 }
 .summary {
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.60; /* a bit more spacing for summary */
   color: #222222;
 }
 .skills p {
-  margin: 5px 0;
+  margin: 6px 0; /* slightly more spacing */
   color: #222222;
+  font-size: 14px;
 }
 .item {
-  margin-bottom: 18px;
+  margin-bottom: 22px; /* more spacing between items */
   color: #222222;
 }
 .item-header {
@@ -70,19 +72,21 @@ body {
 }
 .item-date {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 11px;
   color: #222222;
 }
 .item-sub {
   font-style: italic;
   font-size: 14px;
-  margin-bottom: 8px;
+  margin-bottom: 10px; /* more spacing after subtitle */
   color: #222222;
 }
 ul {
   margin-top: 6px;
   padding-left: 20px;
   color: #222222;
+  font-size: 14px;
+  line-height: 1.55; /* spacing between bullets */
 }
 a {
   color: #222222;
@@ -111,7 +115,7 @@ a:hover {
 <div class="section">
   <h2>SUMMARY</h2>
   <p class="summary">
-  Cloud infrastructure and platform engineer with hands-on experience in Golang, Kubernetes, OpenShift, GitOps, CI/CD pipelines, and containerized applications. I’ve designed and automated systems for regulated banking and SaaS environments, improving deployment speed, reducing errors, and ensuring high system reliability. Experienced in working across teams and projects, I bring strong problem-solving skills, adaptability, and a solid work ethic to every challenge. Professional recommendations on <a href="https://www.linkedin.com/in/elyasaf-lehrer/" target="_blank" rel="noopener noreferrer">LinkedIn</a> highlight my expertise in DevOps, cloud infrastructure, and collaborative development.
+    Cloud Infrastructure & Platform Engineer specializing in Golang, Kubernetes, and GitOps. Experienced in designing scalable SaaS and banking systems, automating CI/CD pipelines, and improving reliability with measurable results. Known for solving complex problems, collaborating across teams, and enhancing operational efficiency. Professional recommendations on <a href="https://www.linkedin.com/in/elyasaf-lehrer/" target="_blank" rel="noopener noreferrer">LinkedIn</a> highlight expertise in DevOps, cloud infrastructure, and team-oriented development.
   </p>
 </div>
 
@@ -132,48 +136,47 @@ a:hover {
 
   <div class="item">
     <div class="item-header">
-      <span>Cloud infrastructure &amp; Golang Developer</span>
+      <span>Cloud Infrastructure & Golang Developer</span>
       <span class="item-date">2025</span>
     </div>
     <div class="item-sub">Raftt | <a href="https://www.raftt.io/" target="_blank" rel="noopener noreferrer">raftt.io</a></div>
     <ul>
-      <li>Built and managed the SaaS platform infrastructure on AWS, deploying EKS clusters and leveraging Route 53, ELB, and IAM, fully automated with Terraform. This improved deployment efficiency, platform reliability, and customer experience while supporting company growth.</li>
-      <li>Developed a Kubernetes Operator in Golang using the Operator SDK framework to to leverage Raftt for automating deployments on Kubernetes clusters, enabling efficient, reliable, and repeatable deployments on Kubernetes..</li>
-      <li>Developed backend features and resolved critical bugs in Golang, using advanced techniques such as goroutines and multithreaded design to enhance performance, making deployments faster, more reliable, and easier for developers.</li>
+      <li>Built and managed the SaaS platform infrastructure on AWS, deploying EKS clusters with Route 53, ELB, and IAM, fully automated using Terraform, improving deployment speed and platform reliability.</li>
+      <li>Developed a Kubernetes Operator in Golang using Operator SDK to automate deployments, enabling efficient, reliable, and repeatable cluster operations.</li>
+      <li>Enhanced backend performance by resolving critical Golang bugs and implementing multithreaded design, improving deployment speed and stability.</li>
     </ul>
   </div>
-</div>
 
-
-<div class="item">
-  <div class="item-header">
-      <span>DevOps &amp; Developer</span>
+  <div class="item">
+    <div class="item-header">
+      <span>DevOps & Developer</span>
       <span class="item-date">2024</span>
     </div>
     <div class="item-sub">Bank Leumi of Israel</div>
     <ul>
-      <li>Developed custom Jenkins shared libraries to standardize CI/CD pipelines across teams, reducing manual effort and accelerating software delivery.</li>
-      <li>Defined branch strategy and automated promotion workflows to streamline development-to-production deployments.</li>
-      <li>Developed a TypeScript-based system to enable a code generator, automating repetitive tasks and scaffolding boilerplate code. The generator accelerated development by approximately 90%, reduced manual errors, and improved consistency across projects.</li>
+      <li>Developed Jenkins shared libraries to standardize CI/CD pipelines, reducing manual effort and accelerating delivery.</li>
+      <li>Defined branch strategy and automated promotion workflows to streamline deployments from development to production.</li>
+      <li>Built a TypeScript-based code generator to automate repetitive tasks, accelerating development by 90% and reducing errors.</li>
     </ul>
   </div>
-  
+
   <div class="item">
     <div class="item-header">
-      <span>Architect &amp; DevOps Engineer</span>
+      <span>Architect & DevOps Engineer</span>
       <span class="item-date">2022 – 2023</span>
     </div>
     <div class="item-sub">Discount Bank of Israel</div>
     <ul>
-      <li>Established, architected, and managed multiple Kubernetes/OpenShift clusters across test, staging, and production environments, including administration, upgrades, monitoring, troubleshooting, and version management, achieving 99.9% uptime.</li>
-      <li>Led CI/CD pipelines from test to production using Jenkins and ArgoCD, enabling reliable, repeatable deployments.</li>
-      <li>Automated cluster provisioning with Kubernetes Operators, improving deployment consistency and reducing manual errors.</li>
+      <li>Architected and managed multiple Kubernetes/OpenShift clusters across test, staging, and production, achieving 99.9% uptime.</li>
+      <li>Led CI/CD pipelines using Jenkins and ArgoCD, enabling reliable, repeatable deployments.</li>
+      <li>Automated cluster provisioning with Kubernetes Operators, reducing manual errors and improving consistency.</li>
       <li>Migrated applications from Windows/Linux servers to Kubernetes/OpenShift, enhancing scalability and operational efficiency.</li>
-      <li>Collaborated closely with security teams, integrating tools like Aqua Security, Sosivio, and Ansible to maintain secure production environments.</li>
-      <li>Success of project lead to presentation at Redhat 2024 event</li>
+      <li>Collaborated with security teams integrating Aqua Security, Sosivio, and Ansible to maintain secure production environments.</li>
+      <li>Project success led to a presentation at the Redhat 2024 event.</li>
     </ul>
   </div>
-  
+</div>
+
 <!-- EDUCATION -->
 <div class="section">
   <h2>EDUCATION</h2>
@@ -189,18 +192,18 @@ a:hover {
 
   <div class="item">
     <div class="item-header">
-      <span>DevOps Engineer (Training &amp; Projects)</span>
+      <span>DevOps Engineer (Training & Projects)</span>
       <span class="item-date">2021</span>
     </div>
     <ul>
-      <li>Built and deployed web applications using Python and Flask as part of training and project work.</li>
-      <li>Implemented AWS infrastructure components including networking, compute, and storage to support application deployments.</li>
+      <li>Built and deployed web applications using Python and Flask as part of training projects.</li>
+      <li>Implemented AWS infrastructure including networking, compute, and storage for application deployments.</li>
     </ul>
   </div>
 
   <div class="item">
     <div class="item-header">
-      <span>AI &amp; LLM Development with Python – Udemy (in progress)</span>
+      <span>AI & LLM Development with Python – Udemy (In Progress)</span>
       <span class="item-date">2026</span>
     </div>
     <ul>
